@@ -1,0 +1,10 @@
+[package]
+name = "derivation-path-build"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# with thiserror
+# solana-derivation-path = { git = "https://github.com/anza-xyz/agave", rev = "dc6a1b3" }
+# without thiserror
+solana-derivation-path = { git = "https://github.com/anza-xyz/agave", rev = "3d63886dc811bcb5b4e5dcc8e4760eb729264121" }
